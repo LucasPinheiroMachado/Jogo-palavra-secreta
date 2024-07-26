@@ -72,11 +72,27 @@
   .wordContainer {
     max-width: 70vw;
   }
+
+  .letter,
+  .blankSquare {
+    font-size: 60px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px; /* Atualizado para alinhar com o tamanho do elemento */
+  }
 }
 
 @media (max-width: 1100px) {
   .wordContainer {
     max-width: 80vw;
+  }
+
+  .letter,
+  .blankSquare {
+    font-size: 50px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px; /* Atualizado para alinhar com o tamanho do elemento */
   }
 }
 
@@ -95,9 +111,10 @@
 
   .letter,
   .blankSquare {
-    font-size: 60px;
-    height: 80px;
-    width: 80px;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px; /* Atualizado para alinhar com o tamanho do elemento */
   }
 
   .letterContainer input {
@@ -121,9 +138,10 @@
 
   .letter,
   .blankSquare {
-    font-size: 45px;
-    height: 65px;
-    width: 65px;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px; /* Atualizado para alinhar com o tamanho do elemento */
   }
 
   .letterContainer input {
@@ -156,9 +174,10 @@
 
   .letter,
   .blankSquare {
-    font-size: 30px;
-    height: 45px;
-    width: 45px;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px; /* Atualizado para alinhar com o tamanho do elemento */
   }
 
   .letterContainer p {
@@ -185,8 +204,9 @@
 
   .letter,
   .blankSquare {
-    font-size: 22px;
-    height: 35px;
-    width: 35px;
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px; /* Atualizado para alinhar com o tamanho do elemento */
   }
 }
