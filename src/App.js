@@ -97,9 +97,12 @@ function App() {
       guessedLetters.length !== 0
     ) {
       setScore((actualScore) => actualScore + 100);
+      if (guesses < 5) {
+        setGuesses((actualGuesses) => actualGuesses + 1);
+      }
       startGame();
     }
-  }, [guessedLetters, letters, startGame]);
+  }, [guessedLetters, letters, startGame, guesses]);
 
   const retry = () => {
     setScore(0);
